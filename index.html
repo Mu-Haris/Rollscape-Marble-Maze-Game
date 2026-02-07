@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rollscape: Marble Maze — Roll, Dodge & Solve Puzzles</title>
+    <meta name="description" content="Guide your marble through beautiful mazes, dodge traps, collect power-ups and unlock new worlds. Free to play on iOS.">
+    <meta name="apple-itunes-app" content="app-id=YOUR_APP_ID">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #E8F4FD 0%, #F0E6FF 50%, #FFF5EB 100%);
+            min-height: 100vh;
+            color: #2D2B55;
+        }
+        .container { max-width: 900px; margin: 0 auto; padding: 40px 24px; text-align: center; }
+        .hero { padding: 60px 0 40px; }
+        .app-icon {
+            width: 140px; height: 140px; border-radius: 32px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+            margin-bottom: 24px;
+            background: linear-gradient(135deg, #E8F4FD, #F0E6FF);
+        }
+        h1 {
+            font-size: 2.6em; font-weight: 800;
+            margin-bottom: 8px;
+            background: linear-gradient(135deg, #FF6B6B, #E05555);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+        }
+        .subtitle { font-size: 1.2em; color: #6B6999; margin-bottom: 32px; }
+        .badge {
+            display: inline-block; padding: 14px 36px; border-radius: 50px;
+            background: #2D2B55; color: #fff; font-size: 1.1em; font-weight: 600;
+            text-decoration: none; transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .badge:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(45,43,85,0.3); }
+        .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 24px; margin: 48px 0; text-align: left; }
+        .feature-card {
+            background: rgba(255,255,255,0.85); border-radius: 20px; padding: 28px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+        }
+        .feature-card h3 { font-size: 1.15em; margin-bottom: 8px; color: #FF6B6B; }
+        .feature-card p { font-size: 0.95em; color: #5A587A; line-height: 1.5; }
+        .section-title { font-size: 1.8em; font-weight: 700; margin: 48px 0 12px; }
+        .section-sub { color: #6B6999; margin-bottom: 32px; font-size: 1.05em; }
+        .stats { display: flex; justify-content: center; gap: 48px; margin: 40px 0; flex-wrap: wrap; }
+        .stat-item h2 { font-size: 2.2em; font-weight: 800; color: #FF6B6B; }
+        .stat-item p { font-size: 0.9em; color: #6B6999; }
+        footer {
+            margin-top: 60px; padding: 32px 0; border-top: 1px solid rgba(45,43,85,0.1);
+            color: #8886AA; font-size: 0.85em;
+        }
+        footer a { color: #FF6B6B; text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hero">
+            <h1>Rollscape</h1>
+            <p class="subtitle">Roll, Dodge & Solve Puzzles</p>
+            <a href="#" class="badge">Download on the App Store</a>
+        </div>
+
+        <div class="stats">
+            <div class="stat-item"><h2>20+</h2><p>Handcrafted Levels</p></div>
+            <div class="stat-item"><h2>10</h2><p>Unique Ball Types</p></div>
+            <div class="stat-item"><h2>6</h2><p>Power-Ups</p></div>
+            <div class="stat-item"><h2>2</h2><p>Worlds to Explore</p></div>
+        </div>
+
+        <h2 class="section-title">Features</h2>
+        <p class="section-sub">Everything you need for a great marble maze experience.</p>
+
+        <div class="features">
+            <div class="feature-card">
+                <h3>Touch & Tilt Controls</h3>
+                <p>Use the intuitive touch joystick or tilt your device to roll your marble through winding corridors and past dangerous holes.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Two Unique Worlds</h3>
+                <p>Ancient Temple with warm sandstone corridors, and Space Station with zero-gravity drifts and reactor cores. More worlds coming soon!</p>
+            </div>
+            <div class="feature-card">
+                <h3>Collect & Customize</h3>
+                <p>10 unique ball types with different physics — bouncy Rubber, slippery Ice, fragile Glass that shatters, and more. Plus trail effects!</p>
+            </div>
+            <div class="feature-card">
+                <h3>Power-Ups</h3>
+                <p>Speed Boost, Shield, Freeze Time, Shrink Ball, Reveal Path, and Ghost Mode — find them on every level to help you reach the portal.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Daily Challenge</h3>
+                <p>A new procedurally generated maze every day. Compete for the best time and earn bonus Orbs.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Endless Mode</h3>
+                <p>Infinite procedurally generated mazes with checkpoints. How far can you roll?</p>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 Muhammad Haris. All rights reserved.</p>
+            <p style="margin-top: 8px;">
+                <a href="privacy.html">Privacy Policy</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
